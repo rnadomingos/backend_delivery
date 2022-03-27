@@ -1,6 +1,6 @@
 # Backend Entregas
 
-    [] Criar estrutura de projeto
+    [x] Criar estrutura de projeto
         [x] Prisma
         [x] TS
         [x] Bcrypt
@@ -14,7 +14,7 @@
     [x] Criar autenticacao client
     [x] Criar cadastro de deliveryman
     [x] Criar autenticacao deliveryman
-    [] Criar cadastro de entregas
+    [x] Criar cadastro de entregas
     [] Criar busca de entregas sem deliveryman
     [] Criar update de entregas
     [] Criar busca de entregas do client
