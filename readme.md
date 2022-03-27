@@ -1,7 +1,7 @@
 # Backend Entregas
 
-    [X] Criar estrutura de projeto
-        [X] Prisma
+    - [X] Criar estrutura de projeto
+        - [X] Prisma
         [X] TS
         [X] Bcrypt
         [X] JWT
