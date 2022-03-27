@@ -11,8 +11,9 @@
     [x] Criar tabela deliveries
     [x] Configurar express(server)
     [x] Criar cadastro de client
-    [x] Criar autenticacao
-    [] Criar cadastro de deliveryman
+    [x] Criar autenticacao client
+    [x] Criar cadastro de deliveryman
+    [x] Criar autenticacao deliveryman
     [] Criar cadastro de entregas
     [] Criar busca de entregas sem deliveryman
     [] Criar update de entregas
