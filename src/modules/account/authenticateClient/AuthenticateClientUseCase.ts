@@ -21,10 +21,7 @@ export class AuthenticateClientUseCase {
             
         }
         //Verificar se senha corresponde ao username
-        const passwordMatch = await compare(password, client.password)
-
-        console.log("pwMatch: ", passwordMatch);
-        
+        const passwordMatch = await compare(password, client.password)       
 
         if (!passwordMatch) {
             throw new Error("Username or password invalid");

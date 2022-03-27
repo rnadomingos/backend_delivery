@@ -1,17 +1,17 @@
 # Backend Entregas
 
-    - [X] Criar estrutura de projeto
-        - [X] Prisma
-        [X] TS
-        [X] Bcrypt
-        [X] JWT
-        [X] Express
-    [X] Criar tabela deliveryman
-    [X] Criar tabela client
-    [X] Criar tabela deliveries
-    [X] Configurar express(server)
-    [] Criar cadastro de client
-    [] Criar autenticacao
+    [] Criar estrutura de projeto
+        [x] Prisma
+        [x] TS
+        [x] Bcrypt
+        [x] JWT
+        [x] Express
+    [x] Criar tabela deliveryman
+    [x] Criar tabela client
+    [x] Criar tabela deliveries
+    [x] Configurar express(server)
+    [x] Criar cadastro de client
+    [x] Criar autenticacao
     [] Criar cadastro de deliveryman
     [] Criar cadastro de entregas
     [] Criar busca de entregas sem deliveryman
