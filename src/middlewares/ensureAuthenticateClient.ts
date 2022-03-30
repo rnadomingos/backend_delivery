@@ -25,9 +25,13 @@ export async function ensureAuthenticateClient(
         try {
             const { sub } = verify(
                 token, 
+                //SECRET DO TOKEN
                 "4a521526b8752af0944da873f72307e4"
             ) as Ipayload;
 
+            // Atributo id_client foi adicionado adicionado ao Request - Através ./@types/express/index.d.ts
+            // Como se fizessemos um extend da classe Request e adicionamos o atributo id_client para 
+            // que possa armazenar a informação do client ao token 
             request.id_client = sub;
 
             return next();
