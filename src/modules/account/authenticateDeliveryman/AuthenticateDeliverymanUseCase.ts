@@ -25,7 +25,8 @@ export class AuthenticateDeliverymanUseCase {
             throw new Error("Username or Password is invalid");
         }
         //Gerar o token
-        const token = sign({ username }, "4a521526b8752af0944da873f72307e4", {
+        // SECRET_MD5 = Deliveryman_Jackson5
+        const token = sign({ username }, "57e3f6820b78d7761905408ebf285266", {
             subject: deliveryman.id,
             expiresIn: "1d"
         });
