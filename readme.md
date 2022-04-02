@@ -17,8 +17,10 @@
     [x] Criar cadastro de entregas
     [x] Criar busca de entregas sem deliveryman
     [x] Criar update de entregas
-    [] Criar busca de entregas do client
-    [] Criar busca de entregas do deliverymay
+    [x] Criar busca de entregas do client
+    [x] Criar busca de entregas do deliverymay
+    [x] Atualizar a Entrega
+
 
 ## Docker DB - Postgres
    sudo docker run --name postgres \
